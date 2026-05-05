@@ -33,5 +33,12 @@ Earlier exploration was influenced by dynamic-dataset supervised-learning ideas,
 - Developed exploration and update strategy
 - Led system integration and experimental direction
 
-[This is a test version for final readme file]
+## License
 
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
+
+## Copyright and Ownership
+
+Copyright © 2026 Sizhong Zhang and Ján Klačan.
+
+The framework provided in this repository is licensed under Apache 2.0. Ownership of any agent trained using this framework — including its learned parameters, weights, and derived artifacts — belongs to the user who trained it. Users retain full rights to agents they train and are free to use, distribute, or commercialize them without restriction.
