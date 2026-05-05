@@ -138,7 +138,11 @@ Choose the input matrix and output name at the top of [z_test.py](z_test.py).
 - Led system integration and experimental direction
 
 ## Ján Klačan Contribution
--[Placeholder]
+- Co-developed the RL-based approach for Schnapsen
+- Co-designed and implemented the RL architecture
+- Ran prototyping and experimentation of more advanced RL algorithms, which were ultimately not covered in the paper (by decision to limit the paper's scope)
+- Co-developed exploration and update strategy based on RL theory
+- Led theoretical research and paper writing
 
 ## License
 This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
