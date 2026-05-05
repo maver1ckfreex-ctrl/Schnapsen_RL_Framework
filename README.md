@@ -26,12 +26,15 @@ Earlier exploration was influenced by dynamic-dataset supervised-learning ideas,
 - Multiprocessing
 - Custom Schnapsen environment integration
 
-## My Contribution
-- Designed the training pipeline
-- Built the RL architecture and buffer-memory workflow
-- Implemented asynchronous worker synchronization
+## Sizhong Zhang Contribution
+- Co-developed the RL-based approach for Schnapsen (initial idea proposed by Ján)
+- Designed and implemented the RL architecture and buffer-memory workflow
+- Built asynchronous training pipeline and worker synchronization
 - Developed exploration and update strategy
 - Led system integration and experimental direction
+
+## Ján Klačan Contribution
+-[Placeholder]
 
 ## License
 
