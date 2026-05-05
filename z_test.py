@@ -48,12 +48,23 @@ def process_win_rate_matrix(input_file, output_file, n_games=10000, alpha=0.05, 
     return result_df
 
 # --- SETTINGS --- choose which matrix you want use to generate z-test result
-INPUT_FILENAME = 'winning_rate_matrix_10k_base.csv'
+INPUT_FILENAME = 'winning_rate_matrix_10k_Base.csv'
+#INPUT_FILENAME = 'winning_rate_matrix_10k_Rdeep_dp4_Samples.csv'
+#INPUT_FILENAME = 'winning_rate_matrix_10k_Rdeep_dp6_Samples.csv'
+#INPUT_FILENAME = 'winning_rate_matrix_10k_Rdeep_dp8_Samples.csv'
 #INPUT_FILENAME = 'winning_rate_matrix_10k_SL.csv'
-#INPUT_FILENAME = 'winning_rate_matrix_10k_RL.csv'
-OUTPUT_FILENAME = 'z_test_base.csv'
+#INPUT_FILENAME = 'winning_rate_matrix_10k_RL_depth.csv'
+#INPUT_FILENAME = 'winning_rate_matrix_10k_RL_samples.csv'
+
+OUTPUT_FILENAME = 'z_test_Base.csv'
+#OUTPUT_FILENAME = 'z_test_dp4_Samples.csv'
+#OUTPUT_FILENAME = 'z_test_dp6_Samples.csv'
+#OUTPUT_FILENAME = 'z_test_dp8_Samples.csv'
 #OUTPUT_FILENAME = 'z_test_SL.csv'
-#OUTPUT_FILENAME = 'z_test_RL.csv'
+#OUTPUT_FILENAME = 'z_test_RL_depth.csv'
+#OUTPUT_FILENAME = 'z_test_RL_samples.csv'
+
+
 GAMES_PER_MATCH = 10000
 SIGNIFICANCE_LEVEL = 0.05
 SHOW_P_VALUE = True  # Set to False to show Z-scores instead
